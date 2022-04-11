@@ -1,0 +1,131 @@
+body {
+    background-image: url(https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/275283451_3381158942098704_758491803686907218_n.jpg?stp=dst-jpg_p960x960&_nc_cat=108&ccb=1-5&_nc_sid=e3f864&_nc_ohc=blaHKYenHk4AX_kXkSW&_nc_oc=AQmy4Qa0yy3Xxsfz0dbIQj7A5FrwqmRlNy2o15acQItZxeqrVcF0YRUki0eTTt9jQ3g&_nc_ht=scontent-atl3-2.xx&oh=00_AT-7UFJ4lF22JcOLeO2Z0JW4jpahqx-3mTQ3p2VHMP2Stg&oe=625521E6);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+    overflow: scroll;
+    margin: 0 0;
+    padding: 0 0;
+}
+header {
+    background-color: rgba(75, 155, 72, 0.63);
+    text-align: center;
+    padding-top: 10px;
+}
+h1 {
+    margin: 0 0;
+    color:rgb(42, 163, 38);
+    background-color:rgba(0, 0, 0, 0.685);
+    text-align: center;
+    padding: 8px 0;
+}
+p {
+    margin:0 0;
+    padding: 4px 0 8px 0;
+}
+h2 {
+    color:rgb(42, 163, 38);
+    text-align: center;
+    padding: 8px 0;
+    background-color:rgba(0, 0, 0, 0.644);
+    color:rgb(42, 163, 38);
+    text-align: center;
+    }
+    h3 {
+        color: #57c740;
+        text-align: center;
+        padding: 8px;
+
+        background-color: rgba(0, 0, 0, 0.733);
+        color: rgb(42, 163, 38);
+    }
+nav {
+    position: sticky;
+    top:0;
+}
+ul.top_nav {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgba(3, 3, 10, 0.726);
+    padding-left: 0;
+    margin: 0 0;
+    padding: 4px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+ul.top_nav li {
+    display: inline-block;
+}
+ul.top_nav li a {
+    display: block;
+    color:rgba(42, 163, 38);
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+a:hover {
+    background-color: rgb(3, 3, 3);
+}
+a:link, a:visited, a:active {
+    color: rgba(42, 163, 38);
+}
+main {
+    margin-bottom: 100px;
+}
+.inline {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    background-color:rgba(0, 0, 0, 0.692);
+    width: fit-content ;
+    margin: 16;
+    display: flex ;
+    align-content: center;
+}
+figure {
+    margin: 0;
+}
+figcaption {
+    width: 400px;
+    text-align: center ;
+    word-wrap: break-word ;
+    padding: 16px;
+}
+figcaption p {
+    padding: 0 16px;
+    margin: 0 0;
+    font-style: oblique;
+}
+img {
+    width: 100;
+    padding: 10px;
+    align-self: center;
+}
+
+/*footer*/
+footer {
+    background-color: rgba(0, 0, 0, 0.733);
+    color: rgb(42, 163, 38);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+ul.footer_contacts {
+    list-style-type: none;
+    overflow:hidden;
+    margin: 0 auto;
+}
+ul.footer_contacts li {
+       display: inline-block;
+       color: rgba(42, 163, 38);
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+}
